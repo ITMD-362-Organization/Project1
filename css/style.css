@@ -1,6 +1,6 @@
 body {
     margin: 5px auto;
-    background-color: rgb(190, 150, 150);
+    background-color: rgb(190, 120, 120);
     color: rgb(50, 50, 50);
 }
 
@@ -8,25 +8,26 @@ fieldset {
     width: 70%;
     margin: 20px auto;
     background-color: rgb(230, 230, 240);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 legend {
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 50px;
     font-size: 20pt;
 }
 
 label {
     margin: 10px 20px;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 input {
     margin: 10px 20px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid rgb(190, 150, 150);
+    border: 1px solid rgb(230, 230, 240);
     width: 55%;
 }
 
@@ -36,11 +37,20 @@ input {
   padding: 12px 40px;
   margin: 20px 50px;
   width: 200px;
-  color: rgb(230, 230, 240);
+  color: rgb(240, 240, 250);
   background-color: rgb(190, 150, 150);
 }
 
 @media only screen and (max-width: 800px) {
-    width: 70%;
-    font-size: 20pt;
+    body {
+        width: 70%;
+        font-size: 20pt;
+    }
+    
+    label {
+        margin: 8px 15px;
+        font-size: 12pt;
+    }
+    
+    
 }
