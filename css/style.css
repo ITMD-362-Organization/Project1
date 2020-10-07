@@ -29,7 +29,6 @@ input {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(230, 230, 240);
-    width: 55%;
 }
 
 .submit {
@@ -42,10 +41,8 @@ input {
   background-color: rgb(190, 150, 150);
 }
 
-.tc {
-    margin: 0;
-    padding: 0;
-    width: 1%;
+.fn, .ln, .pn, .email {
+    width: 55%;
 }
 
 .background {
