@@ -51,14 +51,6 @@ input {
     width: 55%;
 }
 
-.background {
-    background-image: url('media/project3bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-blend-mode: lighten;
-}
-
 .agreement {
     margin: 0;
     padding: 0;
