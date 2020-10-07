@@ -31,16 +31,22 @@ input {
 }
 
 .submit {
-  /* creates proper spacing for submit button margin-bottom: 50px; */
+  /* creates proper spacing for submit button  */
   text-align: center;
   padding: 12px 40px;
-  margin: 20px 50px;
+  margin: 20px auto;
   width: 200px;
   color: rgb(240, 240, 250);
   background-color: rgb(190, 150, 150);
 }
 
-@media only screen and (max-width: 800px) {
+.tc {
+    margin-left: 0;
+    padding-left: 0;
+}
+    
+
+@media only screen and (max-width: 400) {
     body {
         width: 70%;
         font-size: 20pt;
@@ -57,7 +63,7 @@ input {
     }
     
     input {
-        font-size: 12px;
+        font-size: 12pt;
     }
     
     
