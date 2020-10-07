@@ -60,11 +60,6 @@ input {
 }
 
 @media only screen and (max-width: 400px) {
-    body {
-        width: 70%;
-        font-size: 20pt;
-    }
-    
     fieldset {
         width: 90%;
         margin: 20px auto;
