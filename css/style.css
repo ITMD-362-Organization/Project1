@@ -44,7 +44,14 @@ input {
     margin: 0;
     padding: 0;
 }
-    
+
+.background {
+    background-image: url('media/project3bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+}
 
 @media only screen and (max-width: 400) {
     body {
