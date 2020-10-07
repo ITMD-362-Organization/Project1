@@ -59,7 +59,7 @@ input {
     background-blend-mode: lighten;
 }
 
-@media only screen and (max-width: 400) {
+@media only screen and (max-width: 400px) {
     body {
         width: 70%;
         font-size: 20pt;
@@ -69,7 +69,7 @@ input {
         width: 90%;
         margin: 20px auto;
     }
-    
+
     label {
         margin: 8px 15px;
         font-size: 12pt;
