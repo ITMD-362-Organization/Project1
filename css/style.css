@@ -13,8 +13,7 @@ fieldset {
 
 legend {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
     font-size: 20pt;
 }
 
@@ -47,9 +46,18 @@ input {
         font-size: 20pt;
     }
     
+    fieldset {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
     label {
         margin: 8px 15px;
         font-size: 12pt;
+    }
+    
+    input {
+        font-size: 12px;
     }
     
     
