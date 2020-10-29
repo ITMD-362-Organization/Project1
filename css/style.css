@@ -59,6 +59,10 @@ input {
     padding: 0;
 }
 
+.container {
+    width: 400px;
+    text-align: center;
+}
 
 @media only screen and (max-width: 400px) {
     fieldset {
