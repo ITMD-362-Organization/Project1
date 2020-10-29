@@ -33,9 +33,12 @@ legend {
 
 label {
     font-size: 12pt;
+    margin: 10px 20px;
 }
 
 input {
+    margin: 10px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid rgb(230, 230, 240);
 }
@@ -82,6 +85,6 @@ input {
 
 @media only screen and (min-width: 850px) {
     .fn, .ln, .pn, .email {
-        width: 45%;
+        width: 40%;
     }
 }
