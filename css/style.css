@@ -22,7 +22,7 @@ fieldset {
 legend {
     text-align: center;
     padding-top: 150px;
-    font-size: 20pt;
+    font-size: 2.2em;
 }
 
 
@@ -35,7 +35,7 @@ legend {
 }
 
 label {
-    font-size: 12pt;
+    font-size: 1.4em;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 20px;
@@ -77,11 +77,11 @@ input {
 
     label {
         margin: 8px 15px;
-        font-size: 12pt;
+        font-size: 1.2em;
     }
     
     input {
-        font-size: 12pt;
+        font-size: 1.2em;
     }
 }
 
