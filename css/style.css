@@ -47,7 +47,7 @@ input {
   /* creates proper spacing for submit button  */
   text-align: center;
   padding: 12px 40px;
-  
+  margin: 10px 20px;
   width: 200px;
   color: rgb(240, 240, 250);
   background-color: rgb(190, 150, 150);
@@ -62,10 +62,6 @@ input {
     padding: 0;
 }
 
-.container {
-    width: 400px;
-    text-align: center;
-}
 
 @media only screen and (max-width: 400px) {
     fieldset {
