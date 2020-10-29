@@ -29,7 +29,9 @@ legend {
 
 
 
-
+.container {
+    width: 200px;
+}
 
 label {
     font-size: 12pt;
