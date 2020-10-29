@@ -25,14 +25,17 @@ legend {
     font-size: 20pt;
 }
 
+
+
+
+
+
+
 label {
-    margin: 10px 20px;
     font-size: 12pt;
 }
 
 input {
-    margin: 10px 20px;
-    padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(230, 230, 240);
 }
@@ -41,7 +44,7 @@ input {
   /* creates proper spacing for submit button  */
   text-align: center;
   padding: 12px 40px;
-  margin: 20px auto;
+  
   width: 200px;
   color: rgb(240, 240, 250);
   background-color: rgb(190, 150, 150);
